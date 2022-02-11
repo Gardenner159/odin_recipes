@@ -17,52 +17,32 @@ html,body{
 .headline{
     background-color: gray;
 }
+.container{
+    padding: 32px;
+    border: 4px;
+    display: inline-flex;
+}
 .pizza{
+    height: 200px;
+    flex: 1;
     display: flex;
-    justify-content: center;
-    align-self: center;
-    width: 400px;
-    height: auto;
-    border-radius: 20px;
+}
+.pasta{
+    height: 200px;
+    flex: 1;
+    display: flex;
+}
+.crema{
+    height: 200px;
+    flex: 1;  
+    display: flex;
 }
 .left{
     text-align: center;
 }
-.pasta{
-    display: flex;
-    justify-content: center;
-    align-self: center;
-    width: 400px;
-    height: auto; 
-    border-radius: 20px;
-}
 .center{
     text-align: center;
-}
-.crema{
-    display: flex;
-    justify-content: center;
-    align-self: center;
-    width: 450px;
-    height: auto;
-    border-radius: 20px;
 }
 .right{
     text-align: center;
-}
-.recipes{
-    display: flex;
-    justify-content: center;
-    align-self: center;
-    padding: 20px;
-}
-.recipes{
-    border: 100px;
-    border-width: 1px;
-    border-style: double;
-    border-radius: 20px;
-}
-.center{
-    padding-left: 400px;
-    padding-right: 400px;
 }
